@@ -34,10 +34,10 @@ export default function HomeScreen({ navigation }) {
             </View>
           </View>
 
-          <Text style={styles.heroTitle}>LokalPH</Text>
+          <Text style={styles.heroTitle}>Likhaan</Text>
           <Text style={styles.heroSubtitle}>
-            Handcrafted treasures, heirloom textiles, and indigenous delicacies from across the
-            7,641 Philippine islands.
+            Discover and shop authentic handmade creations, designer wearables, home decor, and
+            cultural crafts by Filipino artists.
           </Text>
 
           {/* Forward Navigation 1: Go to full catalog */}
@@ -177,8 +177,8 @@ export default function HomeScreen({ navigation }) {
         <View style={styles.missionCard}>
           <Text style={styles.missionTitle}>Bawat Bili, May Kwento</Text>
           <Text style={styles.missionText}>
-            Every purchase through LokalPH directly sustains regional cultural heritage, protects
-            ancestral weaving traditions, and provides sustainable livelihood to rural artisans.
+            Every purchase through Likhaan directly sustains Filipino creators, protects
+            ancestral weaving traditions, and provides sustainable livelihood to local artisans.
           </Text>
         </View>
       </ScrollView>

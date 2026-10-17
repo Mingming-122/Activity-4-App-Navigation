@@ -27,15 +27,17 @@ A multi-screen mobile application built using **React Native** and **React Navig
 
 ```text
 Activity-4-App-Navigation/
-├── App.js               # Root component: NavigationContainer & Stack.Navigator configuration
-├── HomeScreen.js        # Screen 1: Welcome hero banner, Philippine artisan mission & category shortcuts
-├── ProductList.js       # Screen 2: Catalog list with search, category filtering & item selection
-├── ProductDetails.js    # Screen 3: Item details, specs, quantity counter & custom goBack() button
-├── OrderSummary.js      # Screen 4: Checkout preview, Philippine payment options & order confirmation
-├── productsData.js      # Mock data array with 8 authentic Philippine artisan products & categories
-├── globalStyles.js      # Shared design system (colors, buttons, badges, card elevations)
-├── package.json         # Project metadata and dependencies (@react-navigation/native-stack, etc.)
-└── README.md            # Complete project documentation and navigation guide
+├── App.js                   # Root entry point forwarding to src/App.js
+├── package.json             # Project metadata and dependencies (@react-navigation/native-stack, etc.)
+├── README.md                # Complete project documentation and navigation guide
+└── src/                     # Editable Application Source Files
+    ├── App.js               # NavigationContainer & Stack.Navigator configuration
+    ├── HomeScreen.js        # Screen 1: Welcome hero banner, Philippine artisan mission & category shortcuts
+    ├── ProductList.js       # Screen 2: Catalog list with search, category filtering & item selection
+    ├── ProductDetails.js    # Screen 3: Item details, specs, quantity counter & custom goBack() button
+    ├── OrderSummary.js      # Screen 4: Checkout preview, Philippine payment options & order confirmation
+    ├── productsData.js      # Mock data array with 8 authentic Philippine artisan products & categories
+    └── globalStyles.js      # Shared design system (colors, buttons, badges, card elevations)
 ```
 
 ---
@@ -143,16 +145,18 @@ export default function App() {
 
 ---
 
-## 📦 Mock Philippine Products Dataset (`productsData.js`)
+## 📦 Philippine Products Dataset from Likhaan.com (`src/productsData.js`)
 
-1. **Lumban Heritage Barong Tagalog** (Lumban, Laguna) - ₱4,200
-2. **Benguet Highland Arabica Beans (500g)** (Atok, Benguet) - ₱480
-3. **Ilocos Inabel Handwoven Blanket** (Vigan, Ilocos Sur) - ₱1,750
-4. **Cebu Solid Mango Wood Ukulele** (Lapu-Lapu City, Cebu) - ₱2,950
-5. **Palawan Golden South Sea Pearl Pendant** (Coron, Palawan) - ₱6,800
-6. **Bicol Mayon Pili Nut Treats (Set of 3)** (Naga City, Camarines Sur) - ₱380
-7. **T'boli T'nalak & Abaca Everyday Tote** (Lake Sebu, South Cotabato) - ₱1,350
-8. **Guimaras Sun-Ripened Mango Spread (300g)** (Jordan, Guimaras) - ₱260
+1. **Rosa Bomber Barong Jacket** by *Happy Andrada* (Quezon City) - ₱15,000
+2. **Leonor Heels (Beige)** by *Zapateria* (Marikina City) - ₱12,500
+3. **Tadhana Handbag** by *Ding Perez / Etniko Pilipino* (Cordillera) - ₱2,375
+4. **Roby's Pick Bamboo Tumbler** by *Robelyn Gurang* (Rizal) - ₱1,350
+5. **Isla Hand Embroidered Earrings** by *Ruby Thursday More* (Iloilo) - ₱1,799
+6. **Lucine Embroidered Necklace (Salmon)** by *Ruby Thursday More* (Iloilo) - ₱1,999
+7. **Sengkaling Door Chime** by *Sesotunawa / T'boli Tribe* (Lake Sebu) - ₱1,600
+8. **Brigitte Soluk Rattan Handbag** by *Racionamento* (Albay, Bicol) - ₱6,700
+9. **Hive Moss Art Living Frame** by *Marvin Conti* (Batangas) - ₱3,899
+10. **Denim Katsa Romper Washington** by *Cris Lyca Faustino* (Bulacan) - ₱1,800
 
 ---
 

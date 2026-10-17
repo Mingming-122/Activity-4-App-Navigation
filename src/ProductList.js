@@ -123,7 +123,7 @@ export default function ProductList({ route, navigation }) {
         <Text style={styles.searchIcon}>🔍</Text>
         <TextInput
           style={styles.searchInput}
-          placeholder="Search by product, region (e.g. Laguna, Cebu), or craft..."
+          placeholder="Search by item, creator (e.g. Happy Andrada, Zapateria)..."
           placeholderTextColor={COLORS.textMuted}
           value={searchQuery}
           onChangeText={setSearchQuery}
